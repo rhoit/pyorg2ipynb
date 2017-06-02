@@ -1,0 +1,12 @@
+#+TITLE: pyorg2ipynb
+#+DATE: 2017 Jun 02, Friday
+
+
+ipython notebook is cool, but when you start tracking it in git,
+life becomes the hell, life it become unbearable to look at the
+code diff off everchanging json.
+
+If you say ipython/jupyter notebook can import/export the python code
+file then you must be kidding. Import keeps everything in one cell,
+in export you lose all your precious markdown note, and here I'm
+creating this convertor.
