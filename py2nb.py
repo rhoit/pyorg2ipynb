@@ -52,6 +52,6 @@ else:
     nb_cells.append(nbf4.new_code_cell(source="".join(buffer).strip()))
 
 
-with open("out.ipynb", 'w') as fp:
+with open(FILE.split(".")[0]+".ipynb", 'w') as fp:
     nbook = nbf4.new_notebook(cells=nb_cells)
     fp.write(nbf4.writes(nbook))
